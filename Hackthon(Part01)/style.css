@@ -1,0 +1,90 @@
+
+p{
+    font-family: Arial;
+}
+
+.main-div{
+   border-style: solid;
+   border-width: 10px;
+   border-color:gray;
+   border-radius: 4%;
+   width:1050px;
+   display: inline-block;
+   background-color: rgb(226, 235, 242);
+   margin-left: 9.5%;
+   padding-bottom: 5%;
+}
+
+.image-div{
+    height: 100px;
+    margin-top: 32px;
+}
+
+ .image{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 5%;
+} 
+
+
+.info-div{
+    padding-left: 20px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.email,.contact{
+    font-weight: bold;
+    padding-left: 2%;
+}
+
+#skills-id{
+    padding-left: 20px;
+}
+
+.obj-div,.eduInfo-div,
+.profession-div{
+    padding-left: 20px;
+}
+.object,.education,.experience,.skills{
+    font-weight: bold;
+    font-size:x-large;
+    margin-bottom: 0px;
+}
+.discription{
+    width:1000px;
+    margin-top: 15px;
+    line-height: 33px;
+    padding-left: 2.5%;
+}
+
+.uni-study,.coll-study,
+.ferm-name,.ferm-name2{
+    font-weight: bold;
+    padding-left:20px;
+}
+.uni-checkMarks,.coll-checkMarks,
+.job-checksMarks,.job-checksMarks2,.skill-list{
+    padding-left: 30px;
+    line-height: 33px;
+}
+.toggle-button{
+    height:40px;
+    width: 120px;
+    color: black;
+    background-color: rgb(178, 205, 224);
+    border-radius: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    border-color: black;
+    cursor: pointer;
+}
+.toggle-button:hover{
+    background-color: rgb(209, 223, 232);
+    transition: 0.15s;
+}
